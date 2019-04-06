@@ -1,0 +1,225 @@
+@font-face{
+    font-family: bebas;
+    src: url("../textfonts/BEBAS.ttf") format("opentype");
+}
+$backgroundheader: white;
+$backgroundfooter: white;
+$backgroundmain: white;
+$backgroundproducts: white;
+$backgroundsection: white;
+$backgroundtitle: blue;
+$backgroundform: #74a0e8;
+$headertextcolor: blue;
+$titletextcolor: white;
+
+
+/* Small Mobiles Styles */
+@media only screen and (max-width: 306px){
+  header {
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: column;
+  }
+  .maintitle {
+    padding-left: 0px;
+    font-size: 2rem;
+  }
+  .menuhead {
+  padding-right: 0px;
+  }
+  .menulistheader {
+    padding-left: 0px;
+    li {
+      padding-left: 10px;
+      font-size: 0.75rem;
+    }
+  }
+  .sectionhwa{
+    padding-top: 0px;
+    h2 {
+        margin-bottom: 0rem;
+        font-size: 2rem;
+      }
+      p {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+  }
+  .title p {
+      font-size: 1.2em;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  .title h2 {
+        font-size: 2rem;
+      }
+  .containermembers{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 10px 0px;
+    align-items: center;
+    p {
+      margin-bottom: 0rem;
+      font-size: 0.9rem;
+    }
+    .profilepic{
+      margin-top: 1rem;
+      width: 120px;
+      height: 120px;
+    }
+  }
+  .pic {
+    padding-bottom: 0px;
+  }
+  .containermain {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .products {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    .productcard {
+      margin-left: 0px;
+      margin-bottom: 10px;
+      width: 13rem;
+    }
+    div p {
+      font-size: 1.2rem;
+    }
+  }
+  .contactform {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    label {
+      font-size: 1rem;
+    }
+  }
+footer  p {
+    font-size: 0.6rem;
+  }
+}
+.fab {
+  font-size: 30px;
+  margin-right: 100px;
+}
+/* Mobile Styles */
+@media only screen and (min-width:307px) and (max-width: 626px) {
+  header {
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: column;
+  }
+  .maintitle {
+    padding-left: 0px;
+  }
+  .menuhead {
+  padding-right: 0px;
+  }
+
+  .menulistheader {
+    padding-left: 0px;
+    li {
+      padding-left: 10px;
+      font-size: 1rem;
+    }
+  }
+  .sectionhwa{
+    padding-top: 10px;
+    h2 {
+        margin-bottom: 1rem;
+      }
+      p {
+        margin-bottom: 1rem;
+      }
+  }
+  .title p {
+      font-size: 1.2em;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  .title h2 {
+        font-size: 2rem;
+      }
+  .containermembers{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 10px 0px;
+    align-items: center;
+    p {
+      margin-bottom: 0rem;
+    }
+    .profilepic{
+      margin-top: 1rem;
+    }
+  }
+  .pic {
+    padding-bottom: 0px;
+  }
+  .containermain {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  .products {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    .productcard {
+      margin-left: 0px;
+      margin-bottom: 10px;
+    }
+    div p {
+      font-size: 1.2rem;
+    }
+  }
+  .contactform {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    label {
+      font-size: 1rem;
+    }
+  }
+footer  p {
+    font-size: 0.75rem;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 627px) and (max-width: 960px) {
+  .menulistheader li {
+      font-size: 1.2rem;
+  }
+  .title p {
+    margin-left: 100px;
+    margin-right: 100px;
+      }
+  .sectionhwa {
+    padding-top: 0px;
+  }
+  .containermembers{
+    padding-top: 50px;
+  }
+  .containermain{
+    padding-top: 50px;
+  }
+  .contactform{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .products div p {
+    font-size: 1.2rem;
+  }
+  .productcard {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
