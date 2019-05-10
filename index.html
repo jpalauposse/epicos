@@ -2,84 +2,265 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>EPICOS Alimentos</title>
+
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Mis CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <title>EPICOS Alimentos</title>
 </head>
 
 <body>
-  <header id="mainicon">
-    <h1>
-      <a class="maintitle" href="#mainicon">Epicos Alimentos</a>
-    </h1>
-    <div class="menuhead">
-      <ul class="menulistheader">
-        <li>
-          <a href="#hwa">Quienes somos</a>
+  <header id="cabecera" class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+    <a class="navbar-brand" href="#">EPICOS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#sistemicos">Productos sistemicos <span class="sr-only">(current)</span></a>
         </li>
-        <li>
-          <a href="#product">Producto</a>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Productos</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#lupino">Harina de Lupino Agroecologica</a>
+          </div>
         </li>
-        <li>
-          <a href="#forms">Puntos de Adquisicion</a>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recetas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#nachos">Nachos de Lupino</a>
+            <a class="dropdown-item" href="#gallestas">Galletas de limón o queso</a>
+            <a class="dropdown-item" href="#masa">Masa de tarta proteica</a>
+            <a class="dropdown-item" href="#budin">Budín de lupino y banana</a>
+            <a class="dropdown-item" href="#granola">Galletas de granola y lupino</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#comprar">COMPRAR <span class="sr-only">(current)</span></a>
         </li>
       </ul>
+      <div id="fab">
+        <a href='https://www.instagram.com/epicosalimentos/' target='_blank'><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
   </header>
-  <section class="sectionhwa" id="hwa">
-    <div class="title texthwa">
-      <h2>¿Quienes Somos?</h2>
-      <p>Somos un grupo de primos que tuvimos la loca idea de plantar y vender harina de lupino
-        dulce en Argentina, de manera totalmente organica
-      </p>
+  <main class="jumbotron principal">
+    <div class="container text-center">
+      <h1 class="display-3">Épicos</h1>
     </div>
-    <div class="containermembers">
-      <div class="pic">
-        <img src="images/grupo.jpg" alt="Foto del grupo" class="profilepic">
-      </div>
-      <div>
-        <p class="name">Primos</p>
-        <p>Mas para escribir</p>
+    <div class="container text-center">
+      <img src="images/vagos.jpg" class="img-fluid" width="800" alt="Cerro tronador">
+    </div>
+    <div class="container text-center">
+      <h3>¿Se puede cambiar el mundo y llevar una vida normal al mismo tiempo? ¿Si quiero cuidar el planeta y a las personas, tengo que cambiar mi trabajo, mis estudios y mi vida para dedicarme enteramente a eso? Desde épicos cambiamos las reglas
+        del juego para que la respuesta sea: <a class="font-weight-bold">Podés cuidar el planeta y a las personas a través de tus compras.</a>Podés seguir con tu trabajo, tu familia y tus cosas, simplemente, tenés que apoyar esta revolución.
+
+        Producimos alimentos agroecológicos desde el campo a la góndola. Asociamos a productores campesinos para que puedan vender un producto industrializado saludable. Tenemos la visión de un mundo donde las personas puedan cuidarlo a partir de
+        sus compras. Es por eso que llevamos al mercado un portfolio de alimentos agroecológicos industrializados en zonas rurales del país. Además, con el 1% de las ganancias plantamos árboles nativos para restaurar los bosques degradados.
+      </h3>
+    </div>
+  </main>
+  <section class="jumbotron text-center principal" id="sistemicos">
+    <div class="container">
+      <h2 class="display-4">Productos sistémicos</h2>
+      <p>Dentro de todo sistema hay diferentes actores que interactúan entre sí. En los ecosistemas, estas relaciones existen para que los actores puedan cuidarse unos a otros. Aprendiendo de la naturaleza, desde épicos ponemos en el mercado
+        productos
+        que sigan la lógica sistémica. Por eso, estudiamos el ciclo de vida de los productos, y nos encargamos de que cuiden al mundo y a su gente en todo el proceso.</p>
+    </div>
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/sapo.jpg" class="img-fluid" width="1000" alt="rana entre pastos">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Agroecología</h5>
+              <p>El planeta tierra y su naturaleza vienen evolucionando, a prueba y error, hace 4.000 millones de años. A través de toda esa experiencia, el planeta aprendió cuál es el equilibrio perfecto para el desarrollo de la vida. La tierra es
+                un
+                organismo vivo que nos enseña con sus ecosistemas, una maestra con millones de años de experiencia. Desde épicos la estudiamos y la observamos. Aprovechamos su experiencia. Por eso, cuando cultivamos, imitamos sus ecosistemas llenos
+                de vida.
+                Porque en las relaciones entre especies es donde el cuidado se encuentra con la productividad. Eso es la agroecología, esa es nuestra manera de obtener alimentos de la tierra, aprendiendo a su manera, sin químicos, sin monocultivos,
+                con
+                amor, conocimiento, paciencia y diversidad.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/arado.jpg" class="img-fluid" width="1000" alt="hombres arando">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Trabajo rural</h5>
+              <p>Desde épicos creemos que fomentando la industrialización de la materia prima del campo en los pueblos del interior, logramos potenciar economías regionales que actualmente se encuentran fuera del sistema de mercado. Creando
+                productos con
+                valor agregado, buscamos devolverle a las personas del interior el trabajo y la realización personal del que puede desarrollar sus virtudes. Buscamos darle a las personas la tranquilidad de que para poder alimentar a sus hijos, no es
+                necesario mudarse a la ciudad.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/condor.jpg" class="img-fluid" width="1000" alt="condor volando">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Salud</h5>
+              <p>Los buenos alimentos nos permiten desarrollarnos como seres saludables, activos, enérgicos y vitales para hacer de este mundo un lugar mejor. Siguiendo la lógica de producción sistémica, epicos desarrolla alimentos que hagan bien al
+                que los
+                consume. Porque el mundo necesita salud, necesita verdad, necesita agentes de cambio, necesita despertar y alegría, el mundo necesita personas felices y si uno es lo que come, entonces el mundo necesita alimentos que cuidan.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/condor.jpg" class="img-fluid" width="1000" alt="condor volando">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mirarnos como especie</h5>
+              <p>La montaña sin el río no podría regar sus laderas, el río sin montaña, no podría fluir hacia el mar. En la naturaleza, los actores se comportan como lo que son; parte de un todo. Y la magia sucede cuando todos los actores entienden
+                que solo
+                potenciando al resto se logra llegar al estado superior del sistema. Nuestros productores entendieron eso, por eso son parte de épicos, por eso son comunidad, son sistema, son actores, son magia y son los que necesitan que les
+                compremos para
+                poder seguir haciendo de este mundo, un lugar sistémico. Porque entendieron que cuando actuamos como comunidad, prosperamos, y cuando competimos, sufrimos.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </section>
-  <main class="containermain" id="product">
-    <div class="title">
-      <h2>Producto</h2>
+  <nav class="jumbotron text-center principal">
+    <div class="container text-center">
+      <img src="images/lupino.jpg" class="img-fluid" width="800" alt="Foto de epicos">
     </div>
-    <div class="products">
-      <div>
-        <img class="card-img-top" src="images/producto.jpg" alt="Imagen representativa de un sitio wed">
-        <div>
-          <h5 class="card-title">Harina de Lupino Dulce</h5>
-          <p class="card-text">Organica y super saludable</p>
+    <h2 class="display-4" id="lupino">Harina de Lupino Agroecológica</h2>
+    <h3>El Lupino es un superalimento con una combinación ideal de 30% proteína con 30% fibra. Contiene 3 veces más proteína que la quinoa, fibra que la avena y hierro que el kale. Además tiene prebióticos que desarrollan la biota intestinal y
+      compuestos bioactivos antivirales y antioxidantes. El Lupino nutre y mantiene la sensación de saciedad.</h3>
+    <div class="container">
+      <a class="btn btn-primary" href="#comprar" role="button">COMPRAR</a>
+    </div>
+  </nav>
+  <nav class="jumbotron">
+    <div class="container text-center">
+      <img src="images/recetas.jpg" class="img-fluid" width="800" alt="Mesada de cocinero">
+    </div>
+    <h2 class="display-4 text-center">Recetas</h2>
+    <h3 id="nachos">Nachos de Lupino:</h3>
+    <ul>
+      <li>½ taza de harina de arroz</li>
+      <li>½ taza de polenta</li>
+      <li>½ taza de queso rallado</li>
+      <li>½ taza de agua fría</li>
+      <li>Sal, aceite de oliva, especias y condimentos a gusto</li>
+    </ul>
+    <p>Procedimiento: Mezclar todos los ingredientes, amasar hasta formar una masa homogénea y darle el grosor de 1cm. Marcar la masa con forma de triángulos y hornear sobre papel manteca por 20 min.</p>
+    <h3 id="galletas">Galletas de limón o queso:</h3>
+    <ul>
+      <li>100 gr de harina de lupino</li>
+      <li>100 gr de manteca</li>
+      <li>1 limón</li>
+      <li>1 huevo</li>
+      <li>4 cucharadas de azúcar o miel</li>
+      <li>1 cdta de polvo para hornear</li>
+      <li>100 gr de harina integral (o de arroz sin TACC)</li>
+    </ul>
+    <p>Si las querés saladas, reemplazá el limón por 100 gr de queso rallado y el azúcar por 1 cdta de sal</p>
+
+    <p>Procedimiento: mezclar harinas, polvo de hornear, azúcar y la manteca derretida hasta formar punto arena. Después agregar el jugo de limón con ralladura y huevo. Dejar 20 min. en la heladera. Sacar, amasar hasta crear una masa de 2 cm de
+      altura, cortar en la forma que quieras y al horno 30 min.</p>
+    <h3 id="masa">Masa de tarta proteica</h3>
+    <ul>
+      <li>250 gr de harina de Lupino</li>
+      <li>2 cucharadas soperas de aceite de oliva</li>
+      <li>225 cc de agua tibia</li>
+    </ul>
+    <p>Procedimiento: Mezclar y formar masa, dejar reposar en lugar tibio 15 min. Estirar en forma circular. </p>
+    <h3 id="budin">Budín de lupino y banana</h3>
+    <ul>
+      <li>1 taza de harina de lupino</li>
+      <li>1 taza de harina integral o de arroz si queres sin TACC.</li>
+      <li>3 bananas pisadas</li>
+      <li>1 taza de azúcar</li>
+      <li>½ taza de aceite</li>
+      <li>3 huevos</li>
+      <li>1 chorrito de esencia de vainilla</li>
+      <li>Frutos secos por arriba.</li>
+    </ul>
+    <p>Procedimiento: Pisar las bananas y batir junto al aceite, los huevos, el azucar y la esencia de vainilla. Agregar la mezcla húmeda a la mezcla de harinas y batir. Colocar en una budinera, repartir los frutos secos por arriba de la mezcla y
+      cocinar a horno medio durante una hora.</p>
+    <h3 id="granola">Galletas de granola y lupino</h3>
+    <ul>
+      <li>50 gr de harina de lupino
+      <li>1 clara
+      <li>1 chorrito de leche descremada o vegetal
+      <li>canela y stevia a gusto
+      <li>2 cucharadas de granola
+      <li>2 cucharadas de pasas de uva
+      <li>5 nueces picadas
+    </ul>
+    <p>Procedimiento: Incorporar todos los ingredientes hasta formar una masa. Meter en la heladera 10 min. Estirar y cortar en forma de galleta. Cocinar 7 min. de cada lado en placa de horno.</p>
+  </nav>
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="comprar">
+    <h2 class="display-4">COMPRAR</h2>
+  </div>
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Opcion 1</h4>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$100</h2>
+          <p>Un paquete</p>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary" name="button">Pagar</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Opcion 2</h4>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$300</h2>
+          <p>Tres paquetes</p>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary" name="button">Pagar</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Opcion 3</h4>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$500</h2>
+          <p>Cinco paquetes</p>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary" name="button">Pagar</button>
         </div>
       </div>
     </div>
-  </main>
-  <section class="sectionform" id="forms">
-    <div class="title textform">
-      <h2>Puntos de Adquisicion</h2>
-      <p>Dieteticas donde esta nuestro producto disponible</p>
+  </div>
+  <footer class="navbar navbar-light bg-light">
+    <div class="">
+      <p>Designed by Javier Palau, 2019</p>
     </div>
-    <div class="formbody">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.370347214415!2d-58.39601588489247!3d-34.59479548046178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabdec34320b%3A0xe20d37761abd522e!2sArenales+1844%2C+C1021+CABA!5e0!3m2!1ses-419!2sar!4v1552163330612"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-  </section>
-  <footer>
-    <p>Designed by Javier Palau, 2019</p>
-    <div>
-      <a href='https://www.instagram.com/epicosalimentos/' target='_blank'><i class="fab fa-instagram"></i></a>
+    <div id="fab">
+      <a href='https://github.com/jpalauposse' target='_blank'><i class="fab fa-github"></i></a>
     </div>
   </footer>
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
