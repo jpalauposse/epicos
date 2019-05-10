@@ -6,11 +6,12 @@
 body {
   font-family: arial;
 }
-#cabecera{
-  
+.principal{
+  margin-bottom: 0rem;
 }
 .fab{
   color: black;
+  font-size: 2rem;
 }
 footer {
   display: flex;
