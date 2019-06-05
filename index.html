@@ -5,6 +5,13 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Épicos, harina de lupino dulce">
+  <meta name="keywords" content="alimentos, alta calidad, harina, lupino, épicos, saludable">
+  <meta name="robots" content="">
+
+  <meta property="og:title" content="Épicos, alimentos que cuidan">
+  <meta property="og:site_name" content="Épicos, alimentos que cuidan">
+  <meta property="og:description" content="Épicos, harina de lupino dulce">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -64,15 +71,15 @@
     <div class="container text-center">
       <img src="images/vagos.jpg" class="img-fluid" width="800" alt="Cerro tronador">
     </div>
-    <div class="container text-center">
+    <div class="container">
       <h3>¿Se puede cambiar el mundo y llevar una vida normal al mismo tiempo? ¿Si quiero cuidar el planeta y a las personas, tengo que cambiar mi trabajo, mis estudios y mi vida para dedicarme enteramente a eso?
-        <br>
+
         Desde épicos cambiamos las reglas del juego para que la respuesta sea: <a class="font-weight-bold">Podés cuidar el planeta y a las personas a través de tus compras.</a>Podés seguir con tu trabajo, tu familia y tus cosas, simplemente, tenés
         que apoyar esta revolución.
-        <br>
+
         Producimos alimentos agroecológicos desde el campo a la góndola. Asociamos a productores campesinos para que puedan vender un producto industrializado saludable. Tenemos la visión de un mundo donde las personas puedan cuidarlo a partir de
         sus compras.
-        <br>
+
         Es por eso que llevamos al mercado un portfolio de alimentos agroecológicos industrializados en zonas rurales del país. Además, con el 1% de las ganancias plantamos árboles nativos para restaurar los bosques degradados.
       </h3>
     </div>
@@ -85,7 +92,7 @@
         que sigan la lógica sistémica. Por eso, estudiamos el ciclo de vida de los productos, y nos encargamos de que cuiden al mundo y a su gente en todo el proceso.
       </h3>
     </div>
-    <div class="bd-example">
+    <div class="bd-example animacion">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -225,14 +232,16 @@
     <h2 class="display-4" id="titulo">COMPRAR</h2>
   </div>
   <div class="container text-center">
-    <form class="form-group" action="index.html" method="post">
-      <select id="selec" name="hola" class="form-control text-center barra-seleccion form-control-lg">
+    <form class="form-group formulario" action="index.html" method="post">
+      <select id="selec" class="form-control text-center barra-seleccion form-control-lg">
         <option value="" disabled selected>Seleccione cantidad</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+        <option value="5">5 (Bonificación del 5%)</option>
+        <option value="10">10 (Bonificación del 5%)</option>
+        <option value="15">15 (Bonificación del 10%)</option>
+        <option value="20">20 (Bonificación del 10%)</option>
       </select>
       <div id="formulario" class="container">
       </div>
@@ -263,24 +272,32 @@
       //segun el valor, asigna text y link.
       switch (valor) {
         case "1":
-          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $150</h3>';
-          Href.href = "#";
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $280</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/start?pref_id=219590010-d43451ea-47e0-4228-b1c7-bd1403330bcb";
           break;
         case "2":
-          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $300</h3>';
-          Href.href = "#";
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $560</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-1826ea44-eaeb-4389-82a3-396529f254a3";
           break;
         case "3":
-          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $450</h3>';
-          Href.href = "#";
-          break;
-        case "4":
-          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $600</h3>';
-          Href.href = "#"
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $840</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-ad32f2ee-9da0-4645-94ed-1c6fcea6a133";
           break;
         case "5":
-          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $750</h3>';
-          Href.href = "#";
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $1330</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-0c898047-5c80-449e-b865-96212fd4cf01"
+          break;
+        case "10":
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $2660</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-ba740204-d5ac-40af-8993-1be6ed4aae73";
+          break;
+        case "15":
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $3780</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-703d7ccc-cf7b-491f-88f6-b0d39385f4ee";
+          break;
+        case "20":
+          var currentDiv = document.getElementById("formulario").innerHTML = '<h3 class="resultado">Valor Final $5040</h3>';
+          Href.href = "https://www.mercadopago.com/mla/checkout/pay?pref_id=219590010-9689609e-50a3-4fd4-a9fb-67d5faf71c23";
           break;
         default:
 

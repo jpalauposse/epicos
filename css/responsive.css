@@ -1,0 +1,12 @@
+/* Small Mobiles Styles */
+@media only screen and (max-width: 306px) {
+
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 307px) and (max-width: 626px) {
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 627px) and (max-width: 960px) {
+}
